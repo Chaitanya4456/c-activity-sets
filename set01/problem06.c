@@ -8,7 +8,7 @@ int input(int *a,int *b,int *c)
     scanf("%d",b);
     printf("enter the third number: ");
     scanf("%d",c);
-    return 0;
+    
 }
 
 void compare(int a,int b,int c,int *largest)
@@ -27,7 +27,7 @@ void output(int a,int b,int c,int largest)
 int main()
 {
     int a,b,c,l;
-    input(a,b,c);
+    input(&a,&b,&c);
     compare(a,b,c,&l);
     output(a,b,c,l);
     return 0;

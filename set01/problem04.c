@@ -2,10 +2,10 @@
 
 int main()
 {
-    int a,b,s;
-    input(a,b);
-    add(a,b,&s);
-    output(a,b,s);
+    int a,b,sum;
+    input(&a,&b);
+    add(a,b,&sum);
+    output(a,b,sum);
     return 0;
 }
    void input(int *a,int *b)

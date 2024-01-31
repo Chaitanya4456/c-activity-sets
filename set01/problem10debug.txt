@@ -1,0 +1,39 @@
+PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set01> git add .                            
+PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set01> git commit -m "test"                 
+[main 4edb080] test
+ 2 files changed, 37 insertions(+), 7 deletions(-)
+PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set01> gcc -g -O0 problem08.c -o problem08.exe
+PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set01> gdb .\problem10.exe                  
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set01\problem10.exe...done.
+(gdb) r
+Starting program: C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set01/.\problem10.exe 
+[New Thread 8496.0x3b44]
+[New Thread 8496.0xdb0]
+Enter the first string
+hello
+Enter the second string
+world
+result is 2
+world is greater than hello
+[Inferior 1 (process 8496) exited normally]
+(gdb) quit
+PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set01>git push
+Enumerating objects: 13, done.
+Counting objects: 100% (13/13), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (9/9), 1.36 KiB | 1.36 MiB/s, done.
+Total 9 (delta 5), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (5/5), completed with 2 local objects.
+To https://github.com/Chaitanya4456/c-activity-sets.git
+   873d7e3..4edb080  main -> main
+PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set01> 

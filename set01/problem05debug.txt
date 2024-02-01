@@ -1,23 +1,11 @@
 PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set01> git add .
 PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set01> git commit -m "test"
 On branch main
-Your branch is ahead of 'origin/main' by 1 commit.
+Your branch is ahead of 'origin/main' by 8 commits.
   (use "git push" to publish your local commits)
 
 nothing to commit, working tree clean
 PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set01> gcc -g -O0 problem05.c -o problem05.exe
-PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set01> git push
-Enumerating objects: 8, done.
-Counting objects: 100% (8/8), done.
-Delta compression using up to 12 threads
-Compressing objects: 100% (4/4), done.
-Writing objects: 100% (5/5), 1.15 KiB | 1.15 MiB/s, done.
-Total 5 (delta 2), reused 0 (delta 0), pack-reused 0
-remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
-To https://github.com/Chaitanya4456/c-activity-sets.git
-   5408e66..30418d9  main -> main
-PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set01> git push
-Everything up-to-date
 PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set01> gdb .\problem05.exe
 GNU gdb (GDB) 7.6.1
 Copyright (C) 2013 Free Software Foundation, Inc.
@@ -29,4 +17,13 @@ This GDB was configured as "mingw32".
 For bug reporting instructions, please see:
 <http://www.gnu.org/software/gdb/bugs/>...
 Reading symbols from C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set01\problem05.exe...done.
-(gdb)
+(gdb) r
+Starting program: C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set01/.\problem05.exe 
+[New Thread 24552.0x608]
+[New Thread 24552.0x4120]
+enter a number: 1
+enter a number: 2
+enter a number: 3
+largest number of 1,2 and 3 is 3[Inferior 1 (process 24552) exited normally]
+(gdb) quit
+PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set01>

@@ -1,22 +1,12 @@
 PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set01> git add .
 PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set01> git commit -m "test"
 On branch main
-Your branch is ahead of 'origin/main' by 3 commits.
+Your branch is ahead of 'origin/main' by 6 commits.
   (use "git push" to publish your local commits)
 
 nothing to commit, working tree clean
 PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set01> gcc -g -O0 problem09.c -o problem09.exe
-PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set01> git push
-Enumerating objects: 24, done.
-Counting objects: 100% (22/22), done.
-Delta compression using up to 12 threads
-Compressing objects: 100% (15/15), done.
-Writing objects: 100% (18/18), 2.92 KiB | 748.00 KiB/s, done.
-Total 18 (delta 8), reused 0 (delta 0), pack-reused 0
-remote: Resolving deltas: 100% (8/8), completed with 2 local objects.
-To https://github.com/Chaitanya4456/c-activity-sets.git
-   30418d9..d165d1d  main -> main
-PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set01> gdb .\problem09.exe                  
+PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set01> gdb .\problem09.exe
 GNU gdb (GDB) 7.6.1
 Copyright (C) 2013 Free Software Foundation, Inc.
 License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
@@ -29,10 +19,10 @@ For bug reporting instructions, please see:
 Reading symbols from C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set01\problem09.exe...done.
 (gdb) r
 Starting program: C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set01/.\problem09.exe 
-[New Thread 13944.0x2bd4]
-[New Thread 13944.0x734]
+[New Thread 6052.0x52fc]
+[New Thread 6052.0x5698]
 enter the number
 49
-the squareroot of 49.000000  is  7.000000[Inferior 1 (process 13944) exited normally]
-(gdb) quit
+the squareroot of 49.000000  is  7.000000[Inferior 1 (process 6052) exited normally]
+(gdb) quit 
 PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set01>

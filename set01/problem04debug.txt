@@ -1,23 +1,12 @@
 PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set01> git add .
 PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set01> git commit -m "test"
 On branch main
-Your branch is ahead of 'origin/main' by 2 commits.
+Your branch is ahead of 'origin/main' by 7 commits.
   (use "git push" to publish your local commits)
 
 nothing to commit, working tree clean
-PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set01> gcc -g -O0 problem04.c -o problem04.exe
-PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set01> git push
-Enumerating objects: 13, done.
-Counting objects: 100% (13/13), done.
-Delta compression using up to 12 threads
-Compressing objects: 100% (8/8), done.
-Writing objects: 100% (9/9), 1.48 KiB | 1.48 MiB/s, done.
-Total 9 (delta 5), reused 0 (delta 0), pack-reused 0
-remote: Resolving deltas: 100% (5/5), completed with 3 local objects.
-To https://github.com/Chaitanya4456/c-activity-sets.git
-   d6c2cba..5408e66  main -> main
-PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set01> git push
-Everything up-to-date
+PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set01> gcc -g -O0 problem04.c -o problem04.e
+xe  
 PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set01> gdb .\problem04.exe
 GNU gdb (GDB) 7.6.1
 Copyright (C) 2013 Free Software Foundation, Inc.
@@ -29,4 +18,12 @@ This GDB was configured as "mingw32".
 For bug reporting instructions, please see:
 <http://www.gnu.org/software/gdb/bugs/>...
 Reading symbols from C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set01\problem04.exe...done.
-(gdb) 
+(gdb) r
+Starting program: C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set01/.\problem04.exe 
+[New Thread 19780.0x696c]
+[New Thread 19780.0x5338]
+enter first number: 1
+enter second number: 2
+the sum of 1 and 2 is 3[Inferior 1 (process 19780) exited normally]
+(gdb)quit
+PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set01> 

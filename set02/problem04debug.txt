@@ -1,9 +1,7 @@
-PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set02> git add .
+PS C:\UPS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set02> git add .
 PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set02> git commit -m "test"
-[main 889d6f4] test
- 3 files changed, 91 insertions(+)
- create mode 100644 set02/problem03debug.txt
- create mode 100644 set02/problem03error.txt
+[main 617eb09] test
+ 1 file changed, 10 insertions(+), 18 deletions(-)
 PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set02> gcc -g -O0 problem04.c -o problem04.exe
 PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set02> gdb .\problem04.exe
 GNU gdb (GDB) 7.6.1
@@ -18,10 +16,10 @@ For bug reporting instructions, please see:
 Reading symbols from C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set02\problem04.exe...done.
 (gdb) r
 Starting program: C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set02/.\problem04.exe 
-[New Thread 1872.0x4058]
-[New Thread 1872.0x4934]
-Enter the size of the array: 1 2 7 8 12 
+[New Thread 16028.0x4470]
+[New Thread 16028.0x5a18]
+Enter the size of the array: 1 2 7 8 12
 Enter 1 numbers separated by space: The sum of composite numbers in the array is 0
-[Inferior 1 (process 1872) exited normally]
+[Inferior 1 (process 16028) exited normally]
 (gdb) quit 
-PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set02> 
+PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set02>

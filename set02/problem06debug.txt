@@ -1,11 +1,9 @@
-PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set02> git add .
-PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set02> git commit -m "test"
-[main adeb6fa] test
- 3 files changed, 67 insertions(+)
- create mode 100644 set02/problem05debug.txt
- create mode 100644 set02/problem05error.txt
-PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set02> gcc -g -O0  problem06.c -o problem06.exe
-PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set02> gdb .\problem06.exe
+PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set02> git add .                            
+PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set02> git commit -m "test"                 
+[main 43608e5] test
+ 1 file changed, 9 insertions(+), 12 deletions(-)
+PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set02> gcc -g -O0 problem06.c -o problem06.exe
+PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set02> gdb .\problem06.exe                  
 GNU gdb (GDB) 7.6.1
 Copyright (C) 2013 Free Software Foundation, Inc.
 License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
@@ -18,10 +16,10 @@ For bug reporting instructions, please see:
 Reading symbols from C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set02\problem06.exe...done.
 (gdb) r
 Starting program: C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set02/.\problem06.exe 
-[New Thread 26776.0x418c]
-[New Thread 26776.0x47a8]
-Enter a string: gello
-The reverse of "gello" is "olleg"
-[Inferior 1 (process 26776) exited normally]
+[New Thread 22944.0xf4c]
+[New Thread 22944.0x6f9c]
+Enter a string: hello
+The reverse of "hello" is "olleh"
+[Inferior 1 (process 22944) exited normally]
 (gdb) quit
 PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set02>

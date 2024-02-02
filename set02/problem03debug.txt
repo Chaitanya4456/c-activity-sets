@@ -1,11 +1,9 @@
-PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set02> git add .                            
-PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set02> git commit -m "test"                 
-[main 513877e] test
- 2 files changed, 30 insertions(+)
- create mode 100644 set02/problem02debug.txt
- create mode 100644 set02/problem02error.txt
+PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set02> git add .
+PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set02> git commit -m "test"
+[main 89a8b7b] test
+ 1 file changed, 5 insertions(+), 7 deletions(-)
 PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set02> gcc -g -O0 problem03.c -o problem03.exe
-PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set02> gdb .\problem03.exe                  
+PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set02> gdb .\problem03.exe
 GNU gdb (GDB) 7.6.1
 Copyright (C) 2013 Free Software Foundation, Inc.
 License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
@@ -18,16 +16,10 @@ For bug reporting instructions, please see:
 Reading symbols from C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set02\problem03.exe...done.
 (gdb) r
 Starting program: C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set02/.\problem03.exe 
-[New Thread 24288.0x6870]
-[New Thread 24288.0x71cc]
+[New Thread 21960.0x3290]
+[New Thread 21960.0x5f84]
 Enter a number: 8
 8 is a composite number.
-[Inferior 1 (process 24288) exited normally]
-(gdb) quit
+[Inferior 1 (process 21960) exited normally]
+(gdb) quit 
 PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set02>
-[New Thread 14652.0x4df0]
-Enter a number: 8
-8 is a composite number.
-[Inferior 1 (process 14652) exited normally]
-(gdb) quit
-PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set02> 

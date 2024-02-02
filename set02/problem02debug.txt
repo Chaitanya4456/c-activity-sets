@@ -1,9 +1,7 @@
 PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set02> git add .
 PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set02> git commit -m "test"
-[main e104af6] test
- 2 files changed, 29 insertions(+)
- create mode 100644 set02/problem01debug.txt
- create mode 100644 set02/problem01erro.txt
+[main bb28d7b] test
+ 1 file changed, 7 insertions(+), 9 deletions(-)
 PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set02> gcc -g -O0 problem02.c -o problem02.exe
 PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set02> gdb .\problem02.exe
 GNU gdb (GDB) 7.6.1
@@ -18,12 +16,12 @@ For bug reporting instructions, please see:
 Reading symbols from C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set02\problem02.exe...done.
 (gdb) r
 Starting program: C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set02/.\problem02.exe 
-[New Thread 23332.0x6560]
-[New Thread 23332.0x5078]
+[New Thread 28164.0x735c]
+[New Thread 28164.0x4e1c]
 Enter the length of a side: 5 
 Enter the length of a side: 4
 Enter the length of a side: 5
 The triangle with sides 5, 4, and 5 is not scalene
-[Inferior 1 (process 23332) exited normally]
+[Inferior 1 (process 28164) exited normally]
 (gdb) quit
 PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set02>

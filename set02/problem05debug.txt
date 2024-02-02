@@ -1,12 +1,9 @@
-PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set02> git add .
-PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set02> git commit -m "test"
-[main ce435e4] test
- 4 files changed, 70 insertions(+)
- create mode 100644 set02/problem04debug.txt
- create mode 100644 set02/problem04error.txt
- create mode 100644 set02/problemerror.txt
+PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set02> git add .                            
+PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set02> git commit -m "test"                 
+[main 4a158ae] test
+ 1 file changed, 8 insertions(+), 10 deletions(-)
 PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set02> gcc -g -O0 problem05.c -o problem05.exe
-PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set02> gdb .\problem05.exe
+PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set02> gdb .\problem05.exe                  
 GNU gdb (GDB) 7.6.1
 Copyright (C) 2013 Free Software Foundation, Inc.
 License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
@@ -19,11 +16,11 @@ For bug reporting instructions, please see:
 Reading symbols from C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set02\problem05.exe...done.
 (gdb) r
 Starting program: C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set02/.\problem05.exe 
-[New Thread 28620.0x734]
-[New Thread 28620.0x3b14]
+[New Thread 15452.0x4a28]
+[New Thread 15452.0x5d14]
 Enter a number: 12
 Enter a number: 16
 The GCD of 12 and 16 is 4
-[Inferior 1 (process 28620) exited normally]
-(gdb) quit 
+[Inferior 1 (process 15452) exited normally]
+(gdb) quit
 PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set02>

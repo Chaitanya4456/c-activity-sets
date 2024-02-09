@@ -1,0 +1,45 @@
+PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set01> git add .                            
+PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set01> git commit -m "test"                 
+On branch main
+Your branch is ahead of 'origin/main' by 9 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set01> gcc -g -O0 problem12.c -o problem12.exe
+PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set01> gdb .\problem12.exe                  
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set01\problem12.exe...done.
+(gdb) r 
+Starting program: C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set01/.\problem12.exe 
+[New Thread 19816.0x6328]
+[New Thread 19816.0x16dc]
+For the first complex number:
+Enter the real and imaginary parts: 2 3 
+For the second complex number:
+Enter the real and imaginary parts: 4 5 
+The first complex number is: 2.0 + 3.0i
+The second complex number is: 4.0 + 5.0i
+The sum of these complex numbers is: 6.0 + 8.0i
+[Inferior 1 (process 19816) exited normally]
+(gdb) quit
+PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set01> git push
+Enumerating objects: 40, done.
+Counting objects: 100% (40/40), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (30/30), done.
+Writing objects: 100% (32/32), 4.13 KiB | 1.03 MiB/s, done.
+Total 32 (delta 19), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (19/19), completed with 3 local objects.
+To https://github.com/Chaitanya4456/c-activity-sets.git
+   bd22dd1..0afc814  main -> main
+PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set01> git push
+Everything up-to-date
+PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set01> 

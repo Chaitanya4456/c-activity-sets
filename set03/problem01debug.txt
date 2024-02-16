@@ -1,0 +1,36 @@
+PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set03> git add .
+PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set03> git commit -m "test"
+[main ee90098] test
+ 1 file changed, 37 insertions(+)
+PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set03> gcc -g -O0 problem01.c -o problem01.exe
+PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set03> gdb .\problem01.exe                  
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set03\problem01.exe...done.
+(gdb) r
+Starting program: C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set03/.\problem01.exe 
+[New Thread 2052.0x393c]
+[New Thread 2052.0x2ec]
+Enter coordinates of first point (x1 y1): 1 1 
+Enter coordinates of second point (x2 y2): 2 2
+The distance between point (1.0000000, 1.0000000) and (2.0000000, 2.0000000) is 1.4142
+[Inferior 1 (process 2052) exited normally]
+(gdb) quit
+PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set03> git push
+Enumerating objects: 22, done.
+Counting objects: 100% (21/21), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (14/14), 3.02 KiB | 386.00 KiB/s, done.
+Total 14 (delta 8), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (8/8), completed with 6 local objects.
+To https://github.com/Chaitanya4456/c-activity-sets.git
+   192590d..ee90098  main -> main
+PS C:\Users\chait\OneDrive\Documents\Desktop\c-activity-sets\c-activity-sets-1\set03> 

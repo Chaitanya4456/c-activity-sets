@@ -1,13 +1,13 @@
 #include<stdio.h>
 int main()
 {
-    int c,d,sum;
+    int a,b,sum;
     printf("enter the first number: ");
-    scanf("%d",&c);
+    scanf("%d",&a);
     printf("enter the second number: ");
-    scanf("%d",&d);
-    sum = c+d;
-    printf("the sum of %d and %d is %d",c,d,sum);
+    scanf("%d",&b);
+    sum = a+b;
+    printf("the sum of %d and %d is %d",a,b,sum);
     return 0;
 }
 

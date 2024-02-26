@@ -1,10 +1,10 @@
 #include<stdio.h>
 
 
-   void input(int *a,int *b)
+   void input(int *b,int *c)
   {
     printf("enter first number: ");
-    scanf("%d",a);
+    scanf("%d",b);
     printf("enter second number: ");
     scanf("%d",b);
     

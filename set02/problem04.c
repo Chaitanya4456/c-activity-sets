@@ -40,5 +40,4 @@ int main() {
     sum = sum_composite_numbers(n,a);
     output(sum);
     return 0;
-
 }

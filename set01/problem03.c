@@ -6,14 +6,14 @@ int input()
     scanf("%d",&n);
     return n;
 }
-int add(int num1,int num2)
+int add(int a,int b)
 {
     int sum;
-    sum = num1+num2;
+    sum = a+b;
 }
-void output(int num1,int num2,int sum)
+void output(int a,int b,int sum)
 {
-    printf("the sum of %d and %d is %d",num1,num2,sum);
+    printf("the sum of %d and %d is %d",a,b,sum);
 }
 int main()
 {

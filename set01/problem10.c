@@ -40,7 +40,7 @@ void output(char *string1, char *string2, int result)
   if(result==0)
     printf("%s is equal to %s\n", string1, string2);
   else if(result==1)
-    printf("%s is greater than %s\n", string2, string1);
+    printf("%s is greater than %s\n", string1, string2);
   else if(result==2)
     printf("%s is greater than %s\n", string2, string1);
 }

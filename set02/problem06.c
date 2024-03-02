@@ -16,9 +16,9 @@ int main() {
     return 0;
 }
 
-void input_string(char *a) {
+void input_string(char *b ){
     printf("Enter a string: ");
-    scanf("%s", a);
+    scanf("%s",b);
 }
 
 void str_reverse(char *str, char *rev_str) {

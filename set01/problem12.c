@@ -11,11 +11,11 @@ Complex input_complex()
     scanf("%f %f", &c.real, &c.imaginary);
     return c;
 }
-Complex add_complex(Complex a, Complex b)
+Complex add_complex(Complex p, Complex b)
 {
     Complex sum;
-    sum.real = a.real + b.real;
-    sum.imaginary = a.imaginary + b.imaginary;
+    sum.real = p.real + b.real;
+    sum.imaginary = p.imaginary + b.imaginary;
     return sum;
 }
 void output(Complex a, Complex b, Complex sum)

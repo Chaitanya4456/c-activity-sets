@@ -27,9 +27,9 @@ void output(Complex a, Complex b, Complex sum)
 int main()
 {
     Complex a, b, sum;
-    printf("For the first complex number:\n");
+    printf("For the first complex number:");
     a = input_complex(); 
-    printf("For the second complex number:\n");
+    printf("For the second complex number:");
     b = input_complex();
     sum = add_complex(a, b); 
     output(a, b, sum); 
